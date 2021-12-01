@@ -1,0 +1,329 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(185, 172, 194, 0.37);
+}
+.logo {
+  float: left;
+  position: absolute;
+  width: 120px;
+}
+
+.wrapper {
+  background: url(images/bec1.png) no-repeat center center;
+  background-size: cover;
+  min-height: 30rem;
+}
+.wrapper .top {
+  background-color: rgba(10, 8, 43, 0.733);
+  height: 60px;
+}
+.wrapper .tp {
+  float: right;
+  margin-top: 20px;
+}
+.wrapper .tp a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.wrapper .tp a:last-child {
+  margin-right: 50px;
+}
+.wrapper .tp a:hover {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: orangered;
+}
+
+.top-section {
+  margin-top: 6%;
+
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.top-section {
+  font-family: sans-serif;
+}
+.l,
+.r {
+  margin-top: 10px;
+  color: rgb(255, 92, 32);
+}
+.clgname {
+  width: 60% fit-content;
+  padding-bottom: 0%;
+  border: 0px;
+  margin-bottom: 2px;
+  font-size: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+}
+.clgty {
+  width: 50% fit-content;
+  padding-bottom: 0%;
+  border: 0px;
+  font-size: 2rem;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+  text-align: center;
+  color: #fff;
+}
+.uni {
+  width: 60% fit-content;
+  padding-bottom: 0%;
+  border: 0px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+}
+.code1 {
+  width: 50% fit-content;
+  padding-bottom: 0%;
+  border: 0px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+
+  color: #fff;
+}
+.code1 .r {
+  float: right;
+}
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 30%;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.img {
+  width: 80px;
+  height: 90px;
+  margin-top: 1px;
+  position: absolute;
+}
+
+img {
+  width: 14%;
+  margin-left: 1.9rem;
+}
+.section ul {
+  list-style: none;
+  background-color: rgb(10, 8, 43);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.section li {
+  display: inline-block;
+}
+.section .btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 15px;
+  font-style: 17px;
+}
+.section .btn:hover {
+  background-color: orangered;
+  transition: 0.4s;
+}
+.menu-1 ul li:hover .sub-menu {
+  display: block;
+}
+.sub-menu-1 {
+  display: none;
+  text-align: left;
+}
+
+.sub-menu-1 ul li {
+  display: block;
+  margin-top: 10px;
+}
+.sub-menu-1 ul li a,
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.sub-menu-1 ul li a:hover {
+  background: orangered;
+  padding: 10px;
+  font-size: 17px;
+  transition: 0.4s;
+}
+
+.section .btn:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(10, 8, 43);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+nav ul li :hover {
+  background-color: coral;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.welcome h2 {
+  text-align: center;
+  color: orangered;
+  font-family: sans-serif;
+}
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.welcome {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  line-height: 2;
+}
+
+.news {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news div {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 3px 3px darkgrey;
+  padding: 5px 20px 5px 20px;
+  margin-right: 10px;
+}
+.news td div .l {
+  width: 450px;
+}
+
+.news-de {
+  color: rgb(80, 79, 79);
+}
+.news .n-r {
+  float: right;
+}
+
+.news h2 {
+  color: orangered;
+  font-family: sans-serif;
+}
+.news h3 {
+  color: rgb(10, 8, 43);
+}
+.news .det {
+  line-height: 0.5;
+  color: rgb(80, 79, 79);
+}
+showcase h1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.course {
+}
+.course h1 {
+  text-align: center;
+  color: orangered;
+}
+.course a {
+  text-decoration: none;
+  color: orangered;
+}
+.course h2 {
+  color: rgb(29, 25, 109);
+  text-shadow: 1px 1px gray;
+}
+.cse,
+.civil,
+.eee,
+.ece,
+.eie,
+.it,
+.mech {
+  width: 80%;
+  margin: auto;
+  text-align-last: left;
+  line-height: 2;
+}
+.cs-logo,
+.ee-logo,
+.ei-logo,
+.me-logo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.cv-logo,
+.ec-logo,
+.it-logo {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.apply {
+  margin-top: 4%;
+  background-color: orangered;
+  padding: 0.7rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+footer table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer b {
+  color: #fff;
+}
+footer {
+  margin-top: 50px;
+  background-color: black;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: rgb(168, 167, 167);
+}
+.cp {
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+}
